@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DE-VE-DE</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <section id="searchResults">
+        <input type="text" placeholder="title" id="titleSearch" />
+        <button id="searchTitle">Search</button>
+        <article></article> 
+      </section>
+    </header>
+    <main>
+      <section id="movies"></section>
+      <section id="addMovie">
+        <input type="text" placeholder="title" id="movieTitle" />
+        <input type="text" placeholder="genre" id="movieGenre" />
+        <input type="date" id="releaseDate" />
+        <button id="addMovieButton">Add</button>
+      </section>
+      <section id="favorites">
+        <article>
+          <button id="showFavorites">Show Favorites</button>
+        </article>
+        <article id="favoritesBox"></article>
+      </section>
+    </main>
+
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>
